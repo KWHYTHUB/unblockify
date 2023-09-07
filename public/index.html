@@ -100,7 +100,7 @@
 			if(url.substr(0,4) != "http" && url.substr(0,5) != "https"){
 				url = "https://google.com/search?q=" + encodeURIComponent(url);
 			}
-			window.location = location.protocol + '//' + location.host + '/proxy/' + url;
+			window.location = 'https://unblockify.cyclic.app/proxy/' + url;
 			return false;
 		};
 		
